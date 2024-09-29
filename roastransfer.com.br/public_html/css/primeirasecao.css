@@ -1,0 +1,75 @@
+.primeira-section {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url('../img/capa.jpg');
+  border-bottom: 1px solid var(--terciary-color);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  gap: 20px;
+  width: 1200px;
+  height: auto;
+}
+
+.primeira-section h1 {
+  color: white;
+  font-size: 4rem;
+  text-transform: uppercase;
+  width: 1000px;
+  font-weight: 800;
+  border-left: 10px solid var(--secondary-color);
+  padding: 0px 20px;
+}
+
+.principal-texto {
+  text-align: left;
+  gap: 20px;
+}
+
+
+.primeira-section p {
+  color: white;
+  font-size: 2rem;
+  width: 800px;
+}
+
+
+.btn button{
+  width: 230px;
+  height: 60px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  color: black;
+  font-weight: 600;
+  transition: all 400ms ease-in;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.btn button i {
+  font-size: 2rem;
+}
+
+.btn button:hover {
+  border: 1px solid var(--secondary-color);
+  background-color: transparent;
+  color: var(--secondary-color);
+}

@@ -1,0 +1,68 @@
+.sobrenos-section {
+  background-color: var(--primary-color);
+  width: 100vw;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobrenos-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+}
+
+.sobrenos-section img {
+  width: 400px;
+  height: 400px;
+}
+
+.sobrenos-text h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.sobrenos-text p {
+  font-size: 2rem;
+  padding-bottom: 20px;
+  width: 600px;
+}
+
+.sobrenos-divs h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+
+.sobrenos-divs p {
+  font-size: 1.5rem;
+  width: 600px;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.sobrenos-divs .content-div {
+  display: flex;
+  flex-direction: row;
+  align-items: initial;
+  justify-content: center;
+  gap: 20px;
+}
+
+.sobrenos-divs .icon-boot {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+.sobrenos-divs .icon-content h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.sobrenos-divs .icon-content p {
+  font-size: 1.8rem;
+}

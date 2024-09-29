@@ -1,0 +1,80 @@
+.passos-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background: var(--primary-color);
+  padding: 20px;
+}
+
+.passos-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white-color);
+  width: 1200px;
+}
+
+.passos-content .passos-text h2 {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.passos-content .passos-text p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.passos-divs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);  
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+.passos-divs .passos-info {
+  background: var(--terciary-color);
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  height: 250px;
+}
+
+.passos-info .passos-icon {
+  font-size: 3rem;
+  color: var(--secondary-color);
+}
+
+
+.passos-info h3 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  align-items: center;
+}
+
+.passos-info p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.passos-info .passos-numero {
+  background-color: var(--secondary-color);
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.passos-info .passos-numero h2 {
+  font-size: 2.5rem;
+}

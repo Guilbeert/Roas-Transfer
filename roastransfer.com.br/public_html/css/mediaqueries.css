@@ -1,0 +1,1045 @@
+@media (max-width: 1200px) {
+  .primeira-section h1 {
+    width: 1000px;
+  }
+
+  .primeira-section p {
+    width: 1000px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 1000px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 1000px;
+  }
+
+  .reservar-section h2 {
+    width: 1000px;
+  }
+
+  .reservar-section p {
+    width: 1000px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(4, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 1000px;
+  }
+
+  .text-conhecer p {
+    width: 1000px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 333px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(4, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 1000px;
+  }
+
+  .contato-section p {
+    width: 1000px;
+  }
+
+  .js-content {
+    width: 1000px;
+  }
+
+  .footer-content {
+    width: 1000px;
+  }
+
+  .creditos {
+    width: 1000px;
+  }
+
+  .conteudo-principal {
+    width: 1000px;
+  }
+
+  .sobrenos-content {
+    width: 1000px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 1000px;
+  }
+
+  .service-content {
+    width: 1000px;
+  }
+
+  .service-divs .service-info {
+    width: 250px;
+  }
+
+  .conhecer-content {
+    width: 1000px;
+  }
+
+  .passos-content {
+    width: 1000px;
+  }
+
+  .passos-divs .passos-info {
+    width: 250px;
+    text-align: center;
+  }
+
+  .contato-content {
+    width: 1000px;
+  }
+}
+
+@media (max-width: 1170px) {
+  .primeira-section h1 {
+    width: 800px;
+  }
+
+  .primeira-section p {
+    width: 800px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 800px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 800px;
+  }
+
+  .reservar-section h2 {
+    width: 800px;
+  }
+
+  .reservar-section p {
+    width: 800px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(4, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 800px;
+  }
+
+  .text-conhecer p {
+    width: 800px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 333px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(4, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 800px;
+  }
+
+  .contato-section p {
+    width: 800px;
+  }
+
+  .js-content {
+    width: 800px;
+  }
+
+  .footer-content {
+    width: 800px;
+  }
+
+  .creditos {
+    width: 800px;
+  }
+
+  .conteudo-principal {
+    width: 800px;
+  }
+
+  .sobrenos-content {
+    width: 800px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 800px;
+  }
+
+  .service-content {
+    width: 800px;
+  }
+
+  .service-divs .service-info {
+    width: 255px;
+    text-align: center;
+  }
+
+  .conhecer-content {
+    width: 800px;
+  }
+
+  .passos-content {
+    width: 800px;
+  }
+
+  .contato-content {
+    width: 800px;
+  }
+}
+
+@media (max-width: 992px) {
+  html {
+    font-size: 50%;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+
+  .service-divs .service-info {
+    width: 266px;
+    text-align: center;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 400px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(3, 1fr);  
+  }
+
+  .passos-divs .passos-info {
+    width: 266px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .primeira-section h1 {
+    width: 600px;
+  }
+
+  .primeira-section p {
+    width: 600px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 600px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 600px;
+  }
+
+  .reservar-section h2 {
+    width: 600px;
+  }
+
+  .reservar-section p {
+    width: 600px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 600px;
+  }
+
+  .text-conhecer p {
+    width: 600px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 300px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 600px;
+  }
+
+  .contato-section p {
+    width: 600px;
+  }
+
+  .js-content {
+    width: 600px;
+  }
+
+  .footer-content {
+    width: 600px;
+  }
+
+  .logo-regulament {
+    display: block;
+    gap: 10px;
+  }
+
+  .footer-content {
+    border: none;
+  }
+
+  .footer .footer-options {
+    display: block;
+  }
+
+  .footer .footer-icons {
+    display: block;
+  }
+
+  .creditos {
+    width: 600px;
+  }
+
+  .conteudo-principal {
+    width: 600px;
+  }
+
+  .sobrenos-content {
+    width: 600px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 600px;
+  }
+
+  .service-content {
+    width: 600px;
+  }
+
+  .service-divs .service-info {
+    width: 300px;
+  }
+
+  .conhecer-content {
+    width: 600px;
+  }
+
+  .passos-content {
+    width: 600px;
+  }
+
+  .passos-divs .passos-info {
+    width: 300px;
+    text-align: center;
+  }
+
+  .contato-content {
+    width: 600px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+  }
+
+  .content .list-menu {
+    display: none;
+  }
+
+  .one,
+  .two,
+  .three {
+    width: 90%;
+    height: 2px;
+    background-color: var(--white-color);
+    margin: 6px auto;
+    transition-duration: 0.5s;
+  }
+
+  .menu-toggle {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .content.on {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(30, 31, 30, 0.8);
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .content.on .logo {
+    display: none;
+  }
+
+  .content.on .menu-toggle {
+    position: absolute;
+    right: 40px;
+    top: 20px;
+  }
+
+  .content.on .list-menu {
+    display: block;
+  }
+
+  .content.on .list-menu li {
+    display: flex;
+    justify-content: center;
+  }
+
+  .content.on .list-menu li a {
+    font-size: 2rem;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+  } 
+
+  .content.on .list-menu li a:hover {
+    border: 1px solid var(--secondary-color);
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .content.on .menu-toggle .two {
+    opacity: 0;
+  }
+
+  .content.on .menu-toggle .one {
+    transform: rotate(45deg) translate(5px, -8px);
+  }
+
+  .content.on .menu-toggle .three {
+    transform: rotate(-45deg) translate(20px, -6px);
+  }
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+
+  .primeira-section h1 {
+    width: 500px;
+  }
+
+  .primeira-section p {
+    width: 500px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 500px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 500px;
+  }
+
+  .reservar-section h2 {
+    width: 500px;
+  }
+
+  .reservar-section p {
+    width: 500px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 500px;
+  }
+
+  .text-conhecer p {
+    width: 500px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 250px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(2, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 500px;
+  }
+
+  .contato-section p {
+    width: 500px;
+  }
+
+  .js-content {
+    width: 500px;
+  }
+
+  .footer-content {
+    display: none;
+  }
+
+  .creditos {
+    display: flex;
+  }
+
+  .creditos {
+    width: 500px;
+    flex-direction: row;
+  }
+
+
+  .conteudo-principal {
+    width: 500px;
+  }
+
+  .sobrenos-content {
+    width: 500px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 500px;
+  }
+
+  .service-content {
+    width: 500px;
+  }
+
+  .service-divs .service-info {
+    width: 250px;
+  }
+
+  .conhecer-content {
+    width: 500px;
+  }
+
+  .passos-content {
+    width: 500px;
+  }
+
+  .passos-divs .passos-info {
+    width: 250px;
+    text-align: center;
+  }
+
+  .contato-content {
+    width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  .primeira-section h1 {
+    font-size: 3.5rem;
+    width: 400px;
+  }
+
+  .primeira-section p {
+    width: 400px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 400px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 400px;
+  }
+
+  .reservar-section h2 {
+    width: 400px;
+  }
+
+  .reservar-section p {
+    width: 400px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 400px;
+  }
+
+  .text-conhecer p {
+    width: 400px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 300px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 400px;
+  }
+
+  .contato-section p {
+    width: 400px;
+  }
+
+  .js-content {
+    width: 400px;
+  }
+
+  .footer-content {
+    display: none;
+  }
+
+  .js-content div {
+    padding: 5px;
+  }
+
+  .creditos {
+    width: 400px;
+  }
+
+
+  .conteudo-principal {
+    width: 400px;
+  }
+
+  .sobrenos-content {
+    width: 400px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 400px;
+  }
+
+  .service-content {
+    width: 400px;
+  }
+
+  .service-divs .service-info {
+    width: 300px;
+  }
+
+  .conhecer-content {
+    width: 400px;
+  }
+
+  .passos-content {
+    width: 400px;
+  }
+
+  .passos-divs .passos-info {
+    width: 300px;
+    text-align: center;
+  }
+
+  .contato-content {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .primeira-section h1 {
+    font-size: 3.5rem;
+    width: 400px;
+  }
+
+  .primeira-section p {
+    width: 400px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 400px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 400px;
+  }
+
+  .reservar-section h2 {
+    width: 400px;
+  }
+
+  .reservar-section p {
+    width: 400px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 400px;
+  }
+
+  .text-conhecer p {
+    width: 400px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 300px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 400px;
+  }
+
+  .contato-section p {
+    width: 400px;
+  }
+
+  .js-content {
+    width: 400px;
+    display: block;
+  }
+
+  .footer-content {
+    display: none;
+  }
+
+  .js-content div {
+    padding: 5px;
+  }
+
+  .creditos {
+    width: 400px;
+    flex-direction: row;
+  }
+
+
+  .conteudo-principal {
+    width: 400px;
+  }
+
+  .sobrenos-content {
+    width: 400px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 400px;
+  }
+
+  .service-content {
+    width: 400px;
+  }
+
+  .service-divs .service-info {
+    width: 300px;
+  }
+
+  .conhecer-content {
+    width: 400px;
+  }
+
+  .passos-content {
+    width: 400px;
+  }
+
+  .passos-divs .passos-info {
+    width: 300px;
+    text-align: center;
+  }
+
+  .contato-content {
+    width: 400px;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 40%;
+  }
+
+  .primeira-section h1 {
+    font-size: 3.5rem;
+    width: 300px;
+  }
+
+  .primeira-section p {
+    width: 300px;
+  }
+
+  .sobrenos-content {
+    flex-direction: column;
+  }
+
+  .sobrenos-section {
+    align-items: center;
+    text-align: center;
+  }
+
+  .sobrenos-divs .content-div {
+    display: block;
+  }
+
+  .sobrenos-text {
+    text-align: center;
+  }
+  .sobrenos-text p {
+    text-align: center;
+    width: 300px;
+  }
+
+  .sobrenos-divs p {
+    text-align: center;
+    width: 300px;
+  }
+
+  .sobrenos-content .img-transfer img {
+    width: 300px;
+  }
+
+
+  .reservar-section h2 {
+    width: 300px;
+  }
+
+  .reservar-section p {
+    width: 300px;
+  }
+
+  .service-divs {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .text-conhecer h2 {
+    width: 300px;
+  }
+
+  .text-conhecer p {
+    width: 300px;
+  }
+
+  .grid-conhecer {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .grid-conhecer .con {
+    width: 300px;
+  }
+
+  .passos-divs {
+    grid-template-columns: repeat(1, 1fr);  
+  }
+
+  .contato-section h2 {
+    width: 300px;
+  }
+
+  .contato-section p {
+    width: 300px;
+  }
+
+  .js-content {
+    width: 300px;
+    display: block;
+  }
+
+  .footer-content {
+    display: none;
+  }
+
+  .js-content div {
+    padding: 5px;
+  }
+
+  .creditos {
+    width: 300px;
+    flex-direction: row;
+  }
+
+
+  .conteudo-principal {
+    width: 300px;
+  }
+
+  .sobrenos-content {
+    width: 300px;
+  }
+
+  .reservar-section .reservar-content {
+    width: 300px;
+  }
+
+  .service-content {
+    width: 300px;
+  }
+
+  .service-divs .service-info {
+    width: 300px;
+  }
+
+  .conhecer-content {
+    width: 300px;
+  }
+
+  .passos-content {
+    width: 300px;
+  }
+
+  .passos-divs .passos-info {
+    width: 300px;
+    text-align: center;
+  }
+
+  .contato-content {
+    width: 300px;
+  }
+}

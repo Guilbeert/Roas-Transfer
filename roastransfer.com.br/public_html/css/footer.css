@@ -1,0 +1,117 @@
+.footer {
+	width: 100vw;
+  background: var(--terciary-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.footer-content {
+	display: flex;
+  justify-content: space-between;
+  align-items: center;
+	color: white;
+  width: 1200px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+
+.logo-footer {
+  width: 100px;
+  height: auto;
+}
+
+.logo-cadastur img {
+	width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.logo-footer img {
+  width: 100%;
+  height: 100%;
+}
+
+.footer .footer-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.footer .footer-options li a {
+  color: var(--white-color);
+  font-size: 1.5rem;
+  transition: all 200ms ease-in-out;
+}
+
+.footer .footer-options li a:hover {
+  color: var(--secondary-color);
+}
+
+.footer .footer-icons {
+  display: flex;
+}
+
+.footer .footer-icons li a {
+  padding: 5px;
+  color: var(--white-color);
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  transition: all 200ms ease-in-out;
+}
+
+.footer .footer-icons li a:hover {
+	color: var(--secondary-color);
+}
+
+.creditos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  width: 800px;
+  color: var(--white-color);
+}
+
+.logo-regulament {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  gap: 5px;
+}
+
+.regulament p {
+  font-size: 1.5rem;
+  text-align: left;
+  width: 200px;
+}
+
+.logo-cadastur {
+  width: 200px;
+  align-items: center;
+  height: auto;
+  cursor: pointer;
+}
+
+.desenvolvido-por {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+}
+
+.desenvolvido-por p {
+	font-size: 1.5rem;
+  text-align: center;
+}
+
+
+.desenvolvido-por p a {
+	color: var(--white-color);
+}

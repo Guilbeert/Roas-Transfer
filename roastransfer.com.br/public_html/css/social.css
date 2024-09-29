@@ -1,0 +1,40 @@
+.btn-zap button{
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 250px;
+  height: 60px;
+  cursor: pointer;
+  text-transform: uppercase;
+  background-color: #44D268;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  color: white;
+  gap: 10px;
+}
+
+.zap-text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.zap-text h3 {
+  width: 100%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.zap-text p {
+  width: 100%;
+  font-size: 10px;
+  text-align: left;
+}
+
+
+.logo-zap i {
+  font-size: 3rem;
+}

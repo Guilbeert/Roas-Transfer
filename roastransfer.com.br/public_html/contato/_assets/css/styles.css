@@ -1,0 +1,307 @@
+* {
+  font-family: "Poppins";
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(249, 251, 252);
+}
+body .container {
+  max-width: 656px;
+  padding: 1.5rem 0;
+  margin: 0 auto;
+}
+body section.main-view div.container {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  align-items: center;
+}
+body section.main-view div.container div.block-logo {
+  width: 6rem;
+  height: 6rem;
+  position: relative;
+}
+body section.main-view div.container div.block-logo div.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+body section.main-view div.container div.block-logo div.logo svg.logo-selector {
+  position: absolute;
+  opacity: 0;
+}
+body section.main-view div.container div.block-logo div.logo img {
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0.3) -3.5px 11px 40px 0px;
+  border-radius: 999px;
+}
+body section.main-view div.container div.block-logo svg.logo-mouse {
+  opacity: 0;
+  display: block;
+  position: absolute;
+  vertical-align: middle;
+  transform: translate3d(100px, 100px, 0);
+  right: 0;
+  bottom: 0;
+}
+body section.main-view div.container div.block-logo-text {
+  overflow: hidden;
+  padding: 5px 0;
+}
+body section.main-view div.container div.block-logo-text p.logo-text {
+  color: #353535;
+  font-weight: 800;
+  font-size: 37px;
+  line-height: 82%;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  transform: translate(-60px, 0px);
+  opacity: 0;
+}
+body section.main-view div.container div.block-logo-text p.logo-text span.colored {
+  display: inline-block;
+  color: #C69B3B;
+  transform: scale(0.5, 0.8);
+  -webkit-transform: scale(0.5, 0.8);
+  -moz-transform: scale(0.5, 0.8);
+  -ms-transform: scale(0.5, 0.8);
+  -o-transform: scale(0.5, 0.8);
+}
+body section.view-01 div.container div.block-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body section.view-01 div.container div.block-content div.header {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body section.view-01 div.container div.block-content div.header h1.title {
+  font-weight: 600;
+  color: #161616;
+  font-size: 50px;
+  line-height: 100%;
+}
+body section.view-01 div.container div.block-content div.header p.desc {
+  font-weight: 400;
+  color: rgb(92, 103, 115);
+  font-size: 24px;
+  line-height: 36px;
+  opacity: 0;
+  transform: translate(0, 20px);
+}
+body section.view-01 div.container div.block-content div.content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+body section.view-01 div.container div.block-content div.content h4.word {
+  display: block;
+  font-weight: 500;
+  color: #353535;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: start;
+  width: 100%;
+  overflow: hidden;
+  transform: translate(0, 20px);
+  opacity: 0;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link:first-of-type button.social-btn:hover {
+  background-color: #b4892b;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link:first-of-type button.social-btn {
+  background-color: #C69B3B;
+  border: 2px solid #C69B3B;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(180, 137, 43, 0.2980392157) 0px 13px 30px 0px;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link:first-of-type button.social-btn i {
+  color: #FFFFFF;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link:first-of-type button.social-btn h5 {
+  color: #FFFFFF;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link {
+  translate: none;
+  rotate: none;
+  scale: none;
+  opacity: 1;
+  transform: translate(0px, 0%);
+  text-decoration: none;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn:hover {
+  background-color: rgba(198, 155, 59, 0.1019607843);
+  border-color: #b4892b;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn {
+  background-color: #FFFFFF;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0 32px;
+  transition-duration: 0.25s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  width: 100%;
+  align-items: center;
+  border: 2px solid #e1dcd3;
+  transform: translate(0, -30px);
+  opacity: 0;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn i {
+  color: #353535;
+  font-size: 32px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 11px;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn h5 {
+  font-size: 22px;
+  font-weight: 500;
+  color: #353535;
+  line-height: 24px;
+  text-align: center;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn i.ic-false {
+  opacity: 0;
+}
+body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn i.icon-roadtransfer {
+  display: block;
+  content: "";
+  width: 35px;
+  height: 35px;
+  background: url(../img/logo/favicon.png) no-repeat;
+  background-size: 100%;
+  background-position: center;
+  margin: 0;
+}
+body section.view-01 div.container div.block-content div.content p.footer-content {
+  font-weight: 400;
+  color: rgb(92, 103, 115);
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  transform: translate(0, -20px);
+  opacity: 0;
+}
+body section.social div.container div.block-social {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+}
+body section.social div.container div.block-social a.btn-social {
+  text-decoration: none;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.25s;
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
+  transform: translate(0, -20px);
+  opacity: 0;
+}
+body section.social div.container div.block-social a.btn-social i.icon {
+  color: #353535;
+  font-size: 32px;
+  margin-bottom: 11px;
+}
+body section.social div.container div.block-social a.btn-social:hover {
+  transform: translateY(-4px);
+}
+
+@media (max-width: 680px) {
+  body {
+    padding: 0 15px;
+  }
+  body section.view-01 div.container div.block-content div.header h1.title {
+    font-size: 50px;
+  }
+}
+@media (max-width: 450px) {
+  body {
+    padding: 0 15px;
+  }
+  body .container {
+      padding: 0.5rem 0;
+  }
+  body section.main-view div.container div.block-logo-text p.logo-text {
+    font-size: 28px;
+    line-height: 30px;
+  }
+  body section.view-01 div.container div.block-content div.header h1.title {
+    font-size: 35px;
+  }
+  body section.view-01 div.container div.block-content div.header p.desc {
+    font-size: 19px;
+    line-height: 27px;
+  }
+  body section.view-01 div.container div.block-content {
+      gap: 1rem;
+  }
+  body section.view-01 div.container div.block-content div.header {
+      gap: 1rem;
+  } 
+  body section.view-01 div.container div.block-content div.content {
+      gap: 1rem;
+  }
+  body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn h5 {
+      font-size: 18px;
+  }
+  body section.view-01 div.container div.block-content div.content p.footer-content {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
+
+@media (max-height: 780px) {
+    body section.main-view div.container div.block-logo div.logo svg.logo-selector {
+        width: 80px !important;
+        height: 80px !important;
+    }
+    body section.main-view div.container div.block-logo div.logo img {
+        width: 76px !important;
+        height: 76px !important;
+    }
+    body section.main-view div.container div.block-logo svg.logo-mouse {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    body section.main-view div.container div.block-logo-text p.logo-text {
+        font-size: 22px;
+        line-height: 25px;
+    }
+    body section.view-01 div.container div.block-content div.header h1.title {
+        font-size: 27px;
+        line-height: 32px;
+    }
+    body section.view-01 div.container div.block-content div.content div.block-buttons {
+        padding-bottom: 15px;
+    }
+    body section.view-01 div.container div.block-content div.content div.block-buttons a.btn-link button.social-btn {
+        padding: 0 15px;
+        height: 70px;
+    }
+    body section.view-01 div.container div.block-content div.content p.footer-content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    body section.social div.container div.block-social {
+        padding-top: 15px;
+    }
+}
+
+/*# sourceMappingURL=styles.css.map */

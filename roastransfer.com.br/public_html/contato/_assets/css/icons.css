@@ -1,0 +1,43 @@
+@font-face {
+  font-display: block;
+  font-family: "icons";
+  src: url("../fonts/icons.eot?7ff4fbff163ebe9a6f5d411813b6b6af#iefix") format("embedded-opentype"),
+url("../fonts/icons.woff2?7ff4fbff163ebe9a6f5d411813b6b6af") format("woff2"),
+url("../fonts/icons.woff?7ff4fbff163ebe9a6f5d411813b6b6af") format("woff");
+}
+
+i[class^="icon-"]::before, i[class*=" icon-"]::before {
+  font-family: icons !important;
+  font-style: normal;
+  font-weight: normal !important;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook::before {
+  content: "\f101";
+}
+.icon-google::before {
+  content: "\f102";
+}
+.icon-instagram::before {
+  content: "\f103";
+}
+.icon-linkedin::before {
+  content: "\f104";
+}
+.icon-site::before {
+  content: "\f105";
+}
+.icon-tiktok::before {
+  content: "\f106";
+}
+.icon-tripadvisor::before {
+  content: "\f107";
+}
+.icon-whatsapp::before {
+  content: "\f108";
+}

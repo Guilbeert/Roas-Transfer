@@ -1,0 +1,32 @@
+.reservar-section {
+  width: 100vw;
+  background-color: var(--primary-color);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+}
+
+.reservar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  text-align: center;
+}
+
+
+.reservar-section h2{
+  font-size: 3.5rem;
+  text-transform: uppercase;
+}
+
+.reservar-section p {
+  font-size: 2rem;
+}
